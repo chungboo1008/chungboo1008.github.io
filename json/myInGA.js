@@ -236,9 +236,6 @@ function doFlow(){
     cframe.src ="https://ina5411ina.github.io/index.html?uid=="+uid+"&&domain=="+site_domain+"&&cid=="+getgaCid()+"&&url=="+window.location.href+"&&dataanalyticsID="+dataanalyticsID+"&&element_url=="+elementUrl+"&&elementClasses="+elementClasses+"&&elementId="+elementId+"&&elementText="+elementText;
     
     console.log('URL:', cframe.src)
-    console.log('done')
-    console.log('9487')
-    console.log('iframe', ifrm_c)
     
     removeScript()
 }
