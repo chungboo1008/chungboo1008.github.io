@@ -237,5 +237,5 @@ function doFlow(){
     
     console.log('URL:', cframe.src)
     
-    // removeScript()
+    removeScript()
 }
